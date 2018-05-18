@@ -1,0 +1,287 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.w {	/*版心*/
+    width: 1210px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.main-color {
+    color: #F10215 !important;	/*权重不够*/
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.clearfix::after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*header部分 start*/
+header {
+    height: 100px;
+    box-shadow: 0 5px 10px #ccc;
+}
+.logo>a {
+    width: 170px;
+    height: 80px;
+    display: block;
+    float: left;
+}
+.logo>strong {
+    width: 116px;
+    height: 34px;
+    font: normal 28px "weiruanyahei";
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: 28px;
+    padding-left: 20px;
+}
+.top_right {
+    margin-top: 50px;
+}
+.top_right>a {
+    font-size: 16px;
+    color: #999;
+    text-decoration: none;
+    cursor: text;
+}
+.top_right>a>span {
+    color: #000;
+}
+.top_right>a>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*header部分 end*/
+/*section部分 start*/
+section {
+    margin-bottom: 60px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.content {
+    width: 800px;
+    margin: 50px auto;
+}
+.signup-person {
+    width: 400px;
+    font-size: 14px;
+    position: relative;
+}
+.signup-person .signup-name,
+.signup-person .signup-psw,
+.signup-person .signup-ms_psw,
+.signup-person .signup-tel,
+.signup-person .signup-auth_code {
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ddd;
+    margin-bottom: 32px;
+}
+.signup-person .signup-auth_code .auth-code {
+    width: 75px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.signup-person .signup-auth_code .auth-code>a {
+    color: #fff;
+}
+.signup-person .signup-name>label,
+.signup-person .signup-psw>label,
+.signup-person .signup-ms_psw>label,
+.signup-person .signup-tel>label,
+.signup-person .signup-auth_code>label {
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    letter-spacing: 1em;
+    color: #666;
+    display: inline-block;
+}
+.signup-person .signup-tel>label {
+    border-right: 1px solid #ddd;
+}
+.signup-person .signup-psw>label,
+.signup-person .signup-ms_psw>label {
+    letter-spacing: 4px;
+}
+.signup-person .signup-name .username,
+.signup-person .signup-psw .password,
+.signup-person .signup-ms_psw .ms-password,
+.signup-person .signup-tel .tel,
+.signup-person .signup-auth_code .auth_code {
+    width: 190px;
+    height: 20px;
+    outline: none;
+    border: 0;
+    padding: 16px 0 12px 20px;
+}
+.signup-person .signup-name .username::-webkit-input-placeholder,
+.signup-person .signup-psw .password::-webkit-input-placeholder,
+.signup-person .signup-ms_psw .ms-password::-webkit-input-placeholder,
+.signup-person .signup-tel .tel::-webkit-input-placeholder,
+.signup-person .signup-auth_code .auth_code::-webkit-input-placeholder {
+    color: #ccc;
+}
+.signup-person .signup-tel>label,
+.signup-person .signup-auth_code>label {
+    letter-spacing: 0;
+}
+.signup-person .signup-ok .ok {
+    width: 402px;
+    height: 52px;
+    border: 0;
+    outline: 0;
+    background-color: #EE2222;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*企业登录部分*/
+.content .signup-firm {
+    height: 600px;
+    /*background-color: pink;*/
+    margin-left: 70px;
+    padding-left: 80px;
+    border-left: 1px solid #E6E6E6;
+}
+.signup-firm .firm-top,
+.signup-firm .firm-bottom {
+    width: 160px;
+    height: 60px;
+    margin-left: 30px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.content .signup-firm>.firm-bottom {
+    margin-top: 30px;
+    border: 0;
+}
+.signup-firm .firm-top>a,
+.signup-firm .firm-bottom>a {
+    display: block;
+    width: 160px;
+    height: 30px;
+    color: #6E666E;
+}
+.signup-firm .firm-top>a:hover,
+.signup-firm .firm-bottom>a:hover {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.signup-firm .firm-bottom>a {
+    width: 190px;
+}
+.signup-firm .firm-top>a>img,
+.signup-firm .firm-bottom>a>img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("../images/icon.png");
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.signup-firm .firm-top>a>img {
+    background-position: 0 -50px;
+}
+.signup-firm .firm-bottom>a>img {
+    background-position: -50px -50px;
+    float: left;
+}
+.text-tips {
+    height: 27px;
+    color: #c5c5c5;
+    padding-left: 5px;
+    position: absolute;
+}
+.text-tips>i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon.png") 0 -100px no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+/*section end*/
+/*页面底部 start*/
+footer {
+    height: 60px;
+    /*background-color: pink;*/
+}
+.copy-right_top {
+    text-align: center;
+    padding: 34px 0 22px;
+}
+.copy-right_top a {
+    font-size: 12px;
+    color: #999;
+}
+.copy-right_top a:hover {
+    text-decoration: underline;
+}
+.copy-right_top span {
+    font-size: 12px;
+    margin: 0 10px;
+    color: #999;
+}
+.copy-right_bottom {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/*页面底部 end*/
+.kefu {
+    display: block;
+    width: 33px;
+    height: 135px;
+    background: url("../images/icon.png") -367px 0 no-repeat;
+    position: fixed;
+    top: 322px;
+    right: 0;
+}
+.kefu:hover {
+    background-position: -334px 0;
+}
+.clear_userList {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    opacity: 0;
+}

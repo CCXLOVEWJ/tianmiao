@@ -1,0 +1,385 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.w {	/*版心*/
+    width: 990px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.main-color {
+    color: #F10215 !important;	/*权重不够*/
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+/*顶部logo start*/
+.top {
+    height: 80px;
+    overflow: hidden;
+}
+.logo {
+    height: 80px;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0;
+}
+.logo img {
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo strong {
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    font: 500 22px/60px "fangzhengzhengzhong";
+    color: #3B3B3B;
+    vertical-align: bottom;
+}
+.top_right {
+    height: 80px;
+    position: relative;
+}
+.top_right a {
+    position: relative;
+    top: 52px;
+    color: #999;
+    font-size: 14px;
+}
+.top_right a:hover {
+    text-decoration: underline;
+    color: #E4393C;
+}
+.top_right i {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background: url(../images/q-icon.png) no-repeat;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+/*顶部logo end*/
+/*小tips start*/
+.tips {
+    height: 40px;
+    background-color: #FFF8F0;
+    line-height: 40px;
+}
+.tips .tips_inner {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.tips .tips_inner i {
+    background: url(../images/tips-icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.tips .tips_inner p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.tips_inner p a {
+    font-family: "simsun";
+    color: #000;
+}
+.tips_inner p a:hover {
+    text-decoration: underline;
+}
+/*小tips end*/
+/*中间content部分 start*/
+.content {
+    height: 475px;
+    background-color: #215C7A;
+    position: relative;
+}
+/*背景banner start*/
+.content .content_banner {
+    height: 100%;
+    background: url(../images/login-banner.jpg) no-repeat;
+}
+/*背景banner end*/
+/*登录框 start*/
+.content .login_form {
+    float: right;
+    position: relative;
+    top: 10px;
+    width: 346px;
+    height: 400px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.login_form .login_form_top {
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFF8F0;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.login_form .login_form_top i {
+    width: 16px;
+    height: 16px;
+    background: url(../images/tips-icon.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.login_form .login_form_top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.login_form .login_type {
+    height: 54px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.login_form .login_type .login_type_l {
+    width: 172px;
+    box-sizing: border-box;
+    padding: 20px 50px 18px;
+    float: left;
+}
+.login_form .login_type .login_type_l a,
+.login_form .login_type .login_type_r a {
+    color: #666;
+    font: 18px "weiruanyahei";
+}
+.login_form .login_type .login_type_l a:hover,
+.login_form .login_type .login_type_r a:hover {
+    font-weight: 700;
+    color: #E4393C;
+}
+.login_form .login_type .login_type_r {
+    width: 174px;
+    padding: 20px 30px 17px 50px;
+    box-sizing: border-box;
+    float: right;
+}
+.login_form .login_middle_space {
+    height: 34px;
+}
+.login_form .login_personal {
+    width: 304px;
+    height: 190px;
+    margin: 0 20px;
+}
+.login_form .login_personal .login_personal_name {
+    width: 304px;
+    height: 38px;
+    position: relative;
+    border: 1px solid #BDBDBD;
+    margin-bottom: 20px;
+}
+.login_form .login_personal .login_personal_name label {
+    width: 38px;
+    height: 38px;
+    background: url(../images/login-user-img.png) no-repeat;
+    display: inline-block;
+    border-right: 1px solid #BDBDBD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.login_form .login_personal .login_personal_name #username {
+    width: 254px;
+    height: 18px;
+    border: 0;
+    position: absolute;
+    padding: 10px 0 10px 50px;
+    outline: none;
+    font-size: 14px;
+    font-family: 宋体;
+}
+.login_form .login_personal .login_personal_password {
+    width: 304px;
+    height: 38px;
+    position: relative;
+    border: 1px solid #BDBDBD;
+    margin-bottom: 20px;
+}
+.login_form .login_personal .login_personal_password label {
+    width: 38px;
+    height: 38px;
+    background: url(../images/login-password-img.png) no-repeat;
+    display: inline-block;
+    border-right: 1px solid #BDBDBD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.login_form .login_personal .login_personal_password #userpassword {
+    width: 254px;
+    height: 18px;
+    border: 0;
+    position: absolute;
+    padding: 10px 0 10px 50px;
+    outline: none;
+    font-size: 14px;
+    font-family: "simsun";
+}
+
+.login_form .login_personal .usersafe #forget_password:hover,
+.login_form .other_login .qq_login a:hover,
+.login_form .other_login .wechat_login a:hover,
+.login_form .other_login .to_signin a:hover {
+    color: #E4393C;
+    text-decoration: underline;
+}
+.login_form .login_personal .usersafe {
+    width: 304px;
+    height: 18px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.login_form .login_personal .usersafe #forget_password {
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    right: 0;
+}
+.login_form .login_personal .login_button {
+    width: 304px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #E4393C;
+    text-align: center;
+    border: 1px solid #E85356;
+}
+.login_form .login_personal .login_button a {
+    font: 700 20px "simsun";
+    color: #fff;
+}
+.login_form .other_login {
+    width: 346px;
+    height: 50px;
+    margin-top: 30px;
+    border-top: 1px solid #F4F4F4;
+    padding: 16px 20px 16px 20px;
+    box-sizing: border-box;
+}
+.login_form .other_login .qq_login {
+    float: left;
+    width: 55px;
+    height: 18px;
+    line-height: 18px;
+    border-right: 1px solid #DCCCDC;
+}
+.login_form .other_login .qq_login i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/qq-icon.png) no-repeat;
+    vertical-align: middle;
+}
+.login_form .other_login .qq_login a {
+    display: inline-block;
+    font: 14px/18px "Helvetica";
+    color: #666;
+    vertical-align: middle;
+}
+.login_form .other_login .wechat_login {
+    float: left;
+    width: 55px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+.login_form .other_login .wechat_login i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/wechat-icon.png) no-repeat;
+    vertical-align: middle;
+}
+.login_form .other_login .wechat_login a {
+    display: inline-block;
+    font: 14px/18px "weruanyahei";
+    color: #666;
+    vertical-align: middle;
+}
+.login_form .other_login .to_signin {
+    float: right;
+    width: 80px;
+    height: 16px;
+    line-height: 16px;
+}
+.login_form .other_login .to_signin i {
+     display: inline-block;
+     width: 18px;
+     height: 18px;
+     background: url(../images/signin-icon.png) no-repeat;
+     vertical-align: middle;
+ }
+.login_form .other_login .to_signin a {
+    display: inline-block;
+    font: 14px/18px "weruanyahei";
+    color: #B61D1D;
+    vertical-align: middle;
+}
+.bottom {
+    height: 66px;
+    padding-top: 20px;
+}
+.bottom .bottom_top {
+    text-align: center;
+    font: 12px/16px "weiruanyahei";
+
+}
+.bottom .bottom_top a {
+    color: #666;
+}
+.bottom .bottom_top span {
+    color: #996699;
+    margin: 0 14px;
+}
+.bottom .bottom_top a:hover {
+    color: #E4393C;
+    text-decoration: underline;
+}
+.bottom .copyright {
+    margin-top: 12px;
+}
+.bottom .copyright span {
+    position: relative;
+    left: 30%;
+    color: #666;
+    font-size: 12px;
+}
+.bottom .copyright span:first-child,
+.bottom .copyright span:nth-child(3) {
+    font-family: "Helvetica";
+}
+.bottom .copyright span:last-child {
+    font-family: 宋体;
+}
